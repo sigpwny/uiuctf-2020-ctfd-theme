@@ -5,3 +5,4 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
 - Copy and paste the uiuctf theme folder into /CTFd/themes
 - Replace \CTFd\plugins\ with the one in this repository
 - In the admin config tab (in your ctfd instance) you can upload the logo provided there
+- Replace plugins in /CTFd/plugins with the one in this repository
