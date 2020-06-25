@@ -1,0 +1,21 @@
+.recipe-shell {
+    /* width: 30px; */
+    height: 200px;
+    padding: 6px 0px;
+    border-radius: 15px !important;
+    border: 10px solid #F5F7F9;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857; 
+    background-attachment: fixed;
+    background-image: url("/themes/core/static/img/challenge-block-background.png"); 
+    font-size: 20px;  
+}
+
+.recipe-shell:hover {
+    border: 10px solid #b7b398;
+}
+
+.recipe-modal {
+    border-radius: 15px !important;
+}
