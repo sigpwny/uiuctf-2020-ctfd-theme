@@ -37,17 +37,19 @@ body {
     height: 200px;
     padding: 6px 0px;
     border-radius: 15px !important;
-    border: 10px solid #F5F7F9;
+    border: 10px solid #F5F7F9 !important;
     text-align: center;
     font-size: 12px;
     line-height: 1.42857; 
     background-attachment: fixed;
     background-image: url("/themes/uiuctf/static/img/challenge-block-background.png"); 
     font-size: 20px;  
+    color: #835B28;
 }
 
 .recipe-shell:hover {
-    border: 10px solid #b7b398;
+    border: 10px solid #b7b398!important;
+    /* opacity: 1; */
 }
 
 .dashed {
