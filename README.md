@@ -16,3 +16,28 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
 </style>
 ```
 
+-   Update html by doing the following
+
+    -   Click on Admin Panel
+    -   Click on Pages -> All Pages
+    -   Click on Index
+    -   Copy and paste the following html as content
+
+    ```html
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="themes/uiuctf/static/img/uiuctf-logo.png" />
+            <h3 class="text-center">
+                <a href="https://sigpwny.github.io/uiuctf">UIUCTF Info</a>
+                <p>Follow us on social media:</p>
+                <a href="https://twitter.com/sigpwny"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>&nbsp;
+            </h3>
+            <br>
+            <h4 class="text-center">
+                <a href="https://discord.gg/PytGqjq" target="_blank" rel="noreferrer noopener">Click here</a> to join our Discord!
+            </h4>
+        </div>
+    </div>
+    ```
+
+    
