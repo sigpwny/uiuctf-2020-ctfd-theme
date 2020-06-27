@@ -13,6 +13,25 @@
 
   /* CTFd\themes\uiuctf\static\fonts\FinkHeavy.eot */
 
+a {color:#71B5FB;}
+
+body {
+    background-color: #FAE0A5;
+    color: #835B28!important
+}
+
+.text-muted {
+    color: #835B28!important;
+}
+
+.table {
+    color: #835B28!important;
+}
+
+.container {
+    font-family: 'FinkHeavy'!important;
+}
+
 .recipe-shell {
     /* width: 30px; */
     height: 200px;
@@ -23,7 +42,7 @@
     font-size: 12px;
     line-height: 1.42857; 
     background-attachment: fixed;
-    background-image: url("/themes/core/static/img/challenge-block-background.png"); 
+    background-image: url("/themes/uiuctf/static/img/challenge-block-background.png"); 
     font-size: 20px;  
 }
 
@@ -148,4 +167,8 @@
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.pos-adjust {
+    margin-top:10px;
 }

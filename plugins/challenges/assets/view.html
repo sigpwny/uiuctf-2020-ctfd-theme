@@ -21,28 +21,34 @@
             </ul>
             <div role="tabpanel">
                 <div class="tab-content">
-                    <div role="tabpanel container" class="tab-pane fade show active"
+                    <div role="tabpanel container" class="tab-pane fade show
+                        active"
                         id="challenge">
                         <div class="row center-content">
                             <div class="col">
                                 <div class="row">
-                                    <h2 class='challenge-name text-center pt-3 dashed'>{{ name }}</h2>
+                                    <h2 class='challenge-name text-center pt-3
+                                        dashed'>{{ name }}</h2>
                                 </div>
                                 <div class="row">
-                                    <h5 class="challenge-value text-center">Point Value: {{ value }}</h3>
+                                    <h5 class="challenge-value text-center">Point
+                                        Value: {{ value }}</h3>
                                 </div>
                                 <div class="challenge-tags text-center">
                                     {% for tag in tags %}
-                                    <span class='badge badge-info challenge-tag'>{{ tag
+                                    <span class='badge badge-info
+                                        challenge-tag'>{{ tag
                                         }}</span>
                                     {% endfor %}
                                 </div>
                                 <div class="row center-content">
                                     <div class="challenge-hints hint-row col">
                                         {% for hint in hints %}
-                                        <div class='col-md-12 hint-button-wrapper
+                                        <div class='col-md-12
+                                            hint-button-wrapper
                                             text-center mb-3'>
-                                            <a class="btn btn-info btn-hint btn-block
+                                            <a class="btn btn-info btn-hint
+                                                btn-block
                                                 load-hint" href="javascript:;"
                                                 data-hint-id="{{ hint.id }}">
                                                 {% if hint.content %}
@@ -52,7 +58,8 @@
                                                 {% else %}
                                                 {% if hint.cost %}
                                                 <small>
-                                                    Unlock Hint for {{ hint.cost }} points
+                                                    Unlock Hint for {{ hint.cost
+                                                    }} points
                                                 </small>
                                                 {% else %}
                                                 <small>
@@ -64,34 +71,42 @@
                                         </div>
                                         {% endfor %}
                                     </div>
-                                    <div class=" challenge-files pb-3 row">
+                                    <div class="challenge-files pb-3 row">
                                         {% for file in files %}
                                         <div class='col-md-4 col-sm-4 col-xs-12
-                                            file-button-wrapper d-block center-content'>
-                                            <a class='download-format btn btn-info btn-file mb-1
-                                                d-inline-block px-2 w-100 text-truncate'
+                                            file-button-wrapper d-block
+                                            center-content'>
+                                            <a class='download-format btn
+                                                btn-info btn-file mb-1
+                                                d-inline-block px-2 w-100
+                                                text-truncate'
                                                 href='{{ file }}'>
                                                 <i class="fas fa-download"></i>
                                                 <small>
-                                                    {% set segments = file.split('/') %}
-                                                    {% set file = segments | last %}
-                                                    {% set token = file.split('?') | last %}
+                                                    {% set segments =
+                                                    file.split('/') %}
+                                                    {% set file = segments |
+                                                    last %}
+                                                    {% set token =
+                                                    file.split('?') | last %}
                                                     {% if token %}
-                                                    {{ file | replace("?" + token, "") }}
+                                                    {{ file | replace("?" +
+                                                    token, "") }}
                                                     {% else %}
                                                     {{ file }}
                                                     {% endif %}
                                                 </small>
                                             </a>
                                         </div>
-                                         {% endfor %}
+                                        {% endfor %}
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm">
+                            <div class="col-sm pos-adjust">
                                 <h5 class="desc-title row">Challenge Description</h5>
                                 <div class="chall-desc row">
-                                    <span class="challenge-desc">{{ description | safe }}</span>
+                                    <span class="challenge-desc">{{ description
+                                        | safe }}</span>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +116,8 @@
                                     <input class="form-control" type="text"
                                         name="answer" id="submission-input"
                                         placeholder="Flag" />
-                                    <input id="challenge-id" type="hidden" value="{{
+                                    <input id="challenge-id" type="hidden"
+                                        value="{{
                                         id }}">
                                 </div>
                                 <div class="col-md-3 form-group key-submit">
