@@ -3,9 +3,9 @@
 
 As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/latest/themes.html you just have to do the following:
 - Copy and paste the uiuctf theme folder into /CTFd/themes
-- Replace \CTFd\plugins\ with the one in this repository
+- Replace /CTFd/plugins/ with the one in this repository
 - In the admin config tab (in your ctfd instance) you can upload the logo you want
-- Update the css in the admin config with the following code
+- Update the CSS head in the admin config with the following code
 
 ```css
 <style id="theme-color">
@@ -16,12 +16,13 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
 </style>
 ```
 
--   Update html by doing the following
+-   Update index html by doing the following
 
     -   Click on Admin Panel
     -   Click on Pages -> All Pages
     -   Click on Index
-    -   Copy and paste the following html as content
+    -   Copy and paste the following HTML as content
+    -   Feel free to change things up as you like in the HTML
 
 
  ```html
