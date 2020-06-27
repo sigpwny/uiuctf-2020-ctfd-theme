@@ -16,6 +16,16 @@
     border: 10px solid #b7b398;
 }
 
-.recipe-modal {
+#challenge-window .modal-content {
     border-radius: 15px !important;
+    background-color: #ECE8CB;
+}
+
+#challenge-window .modal-content .modal-body {
+    border-radius: 15px !important;
+    background-color: #E7E0C3;
+}
+
+#challenge-window .modal-content .modal-body .nav-link.active {
+    background-color: #DED5AC;
 }
