@@ -5,6 +5,7 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
 - Copy and paste the uiuctf theme folder into /CTFd/themes
 - Replace /CTFd/plugins/ with the one in this repository
 - In the admin config tab (in your ctfd instance) you can upload the logo you want
+    - You can find our logo in /uiuctf/static/img/
 - Update the CSS head in the admin config with the following code
 
 ```css
@@ -40,6 +41,6 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
             </h4>
         </div>
     </div>
-    ```
+ ```
 
-    
+​    
