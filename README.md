@@ -24,7 +24,7 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
     -   Copy and paste the following html as content
 
 
-    ```html
+ ```html
     <div class="row">
         <div class="col-md-6 offset-md-3">
             <img class="w-100 mx-auto d-block" style="max-width: 500px;padding: 50px;padding-top: 14vh;" src="themes/uiuctf/static/img/uiuctf-logo.png" />
