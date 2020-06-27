@@ -23,6 +23,7 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
     -   Click on Index
     -   Copy and paste the following html as content
 
+
     ```html
     <div class="row">
         <div class="col-md-6 offset-md-3">
