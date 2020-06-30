@@ -48,7 +48,9 @@ As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/l
 
 The CTFd wiki doesn't really help too much in trying to make your own theme so I thought I would talk a bit about it. A lot of other community themes are not updated for the new version of CTFd so they break when you try to install them.
 
-The cool thing to notice is that their core theme works completely so you can just copy that theme and modify that (or this one). I created a new css min and dev file in the static folder (since thats where its being pulled) to hijack the current css. You just need to add a reference to it in the main body (it extends to the rest of the template pages). If you are using this theme you can just edit `pranav.dev.css` and `pranav.min.css` (they need to have the same contents). Remember to hard reload to see changes appear. If you want to edit the css tags for challenges that is located in `challenges.js` in the assets folder. If you want to edit the challenge modal that appears you can find that in plugins. To see the changes for that you must empty cache *_AND_* hard reload. For more basic stuff you can change things on the actual website like I showed in the installation part of this README. Now you can restructure the HTML, add new classes, etc. Noet that some things are served via JS so you may have to hunt around for those JS files and also add the classes there to gauruntee that they will actually render. For example there is a `challenges.min.js` and 'challenges.dev.js' in the static js folder that you may need to edit too. Its a little but annoying but it least it applies things pretty uniformily. 
+The cool thing to notice is that their core theme works completely so you can just copy that theme and modify that (or this one). I created a new css min and dev file in the static folder (since thats where its being pulled) to hijack the current css. You just need to add a reference to it in the main body (it extends to the rest of the template pages). If you are using this theme you can just edit `pranav.dev.css` and `pranav.min.css` (they need to have the same contents). Remember to hard reload to see changes appear. If you want to edit the css tags for challenges that is located in `challenges.js` in the assets folder. If you want to edit the challenge modal that appears you can find that in plugins. To see the changes for that you must empty cache ***AND*** hard reload. 
+
+For more basic stuff you can change things on the actual website like I showed in the installation part of this README. Now you can restructure the HTML, add new classes, etc. Noet that some things are served via JS so you may have to hunt around for those JS files and also add the classes there to gauruntee that they will actually render. For example there is a `challenges.min.js` and 'challenges.dev.js' in the static js folder that you may need to edit too. Its a little but annoying but it least it applies things pretty uniformily. 
 
 That's pretty much it! I'm excited to see what you all do for future CTFs!
 
@@ -57,6 +59,6 @@ If you have any questions or want to get in contact with me my info is:
 |Platform|Link|
 |--------|----|
 |Twitter|[@Etalerni](https://twitter.com/Etalerni)|
-|Website|(https://pranavgoel.com)|
+|Website|https://pranavgoel.com|
 
 ​    
