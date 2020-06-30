@@ -59,6 +59,6 @@ If you have any questions or want to get in contact with me my info is:
 |Platform|Link|
 |--------|----|
 |Twitter|[@Etalerni](https://twitter.com/Etalerni)|
-|Website|https://pranavgoel.com|
+|Website|https://www.pranavgoel.com/|
 
 ​    
