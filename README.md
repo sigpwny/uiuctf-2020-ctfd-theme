@@ -61,7 +61,7 @@ If you have any questions or want to get in contact with me my info is:
 
 |Platform|Link|
 |--------|----|
-|Twitter|[@Etalerni](https://twitter.com/Etalerni)|
+|Twitter|[@pranavgoel_EE](https://twitter.com/pranavgoel_EE)|
 |Website|[pranavgoel.com](https://www.pranavgoel.com/)|
 
 *Please also check out [UIUCTF](https://sigpwny.github.io/uiuctf) hosted by [SIGPWNY](https://sigpwny.github.io/)!*
