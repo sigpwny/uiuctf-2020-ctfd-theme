@@ -1,4 +1,7 @@
 # uiuctf-ctfd-theme
+
+This is the official theme for UIUCTF! Follow the instructions below to install your theme. If there is anything that doesn't work please raise an **[issue](https://github.com/goelp14/uiuctf-ctfd-theme/issues/new/choose)**.
+
 ## Installation
 
 As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/latest/themes.html you just have to do the following:
