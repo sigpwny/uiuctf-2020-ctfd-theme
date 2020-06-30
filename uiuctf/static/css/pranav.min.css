@@ -88,12 +88,13 @@ body {
 }
 
 #challenge-window .modal-content .modal-body .nav-link.active {
-    background-color: #DED5AC;
     color: #835B28;
+    background-color: #E7E0C3;
 }
 
 #challenge-window .modal-content .modal-body .nav-link {
     color: #835B28;
+    background-color: #DED5AC;
 }
 
 #challenge-window .challenge-name {
