@@ -2,10 +2,11 @@
 ## Installation
 
 As per https://docs.ctfd.io/en/latest/plugins.html and https://docs.ctfd.io/en/latest/themes.html you just have to do the following:
-- Copy and paste the uiuctf theme folder into /CTFd/themes
+- Copy and paste the uiuctf theme folder into `/CTFd/themes`
 - Replace /CTFd/plugins/ with the one in this repository
 - In the admin config tab (in your ctfd instance) you can upload the logo you want
-    - You can find our logo in /uiuctf/static/img/
+    - You can find our logo in `/uiuctf/static/img/`
+- You can update favicon in `/uiuctf/static/img` as well
 - Update the CSS head in the admin config with the following code
 
 ```css
